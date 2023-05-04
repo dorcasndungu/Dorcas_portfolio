@@ -409,12 +409,12 @@ body:not(.user-is-tabbing) a:focus {
 
  
 
-/* .header {
+.header {
    
-    background: linear-gradient(rgba(0, 0, 0, 0.863), rgba(0, 0, 0, 0.726)),url("/images/header.jpg") no-repeat center / cover fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.863), rgba(0, 0, 0, 0.747)),url("/images/header.jpg") no-repeat center / cover fixed;
     height: 100vh;
- background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), url('./images/header.jpg') center / cover fixed; 
-} */
+
+}
 
 .header__text {
     position: absolute;
