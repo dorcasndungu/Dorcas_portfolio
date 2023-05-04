@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,13 +9,17 @@
   <!-- Put your site title here -->
   <title>
     Dorcas Mwihaki Ndung'u | A Junior Software Developer and Entrepreneur.
-  
+
   </title>
 
   <meta name="description" content="Dorcas' Portfolio">
   <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
   <meta name="keywords" content="Dorcas Mwihaki,Android,Java,Angular,Spark,JavaScript,Python" />
-  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <!-- <link rel="stylesheet" href="css/style.css" /> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
 </head>
 
 <body>
@@ -27,8 +30,8 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
+          <li class="nav__item"><a href="#clients" class="nav__link">Skills</a></li>
           <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
           <li class="nav__item">
             <a href="#about" class="nav__link">About</a>
           </li>
@@ -42,17 +45,30 @@
       <div class="header__text">
         <h1 class="heading-primary">
           <!-- Replace the following name with your name -->
-          <span>Syed Ali Hussnain</span>
+          <span>Dorcas Mwihaki Ndung'u </span>
         </h1>
         <!-- Put a small paragraph about yourself -->
-        <p>A Web Developer based in Lahore, Pakistan.</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
+        <p>A Junior Software Developer and Entrepreneur.</p>
+        <a href="#footer" class="btn btn--pink">Let's brainstorm</a>
       </div>
     </div>
   </header>
 
   <main role="main">
-    
+
+    <!-- ***** Clients ***** -->
+
+    <section class="client" id="clients">
+      <div class="row">
+        <h2>What l do</h2>
+        <h3 class="pinkh3">Frontend</h3>
+        <p>Javascript, Angular,Jquery, Java Spark, Typescript, HTML, CSS</p>
+        <h3 class="pinkh3">Backend</h3>
+        <p>Java, SQL, Bootstrap, API</p>
+        <h3 class="pinkh3">Other</h3>
+        <p>Firebase, Heroku, JUnit</p>
+      </div>
+    </section>
 
     <!-- ***** Work ***** -->
 
@@ -65,78 +81,51 @@
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Portfolio Template</h3>
+              <h3>Rhyme android app</h3>
               <p>
-                A free Open Source Portfolio for anyone to use for free.
+                An android application that helps Songwriters experiencing writer's block.
               </p>
               <ul class="work__list">
-                <li>HTML</li>
-                <li>SCSS</li>
-                <li>JavaScript</li>
-                <li>Parcel</li>
+                <li>Java</li>
+                <li>Firebase</li>
+                <li>Musix match API</li>
               </ul>
 
               <div class="work__links">
-                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
+                <a href="https://ufile.io/l43f59zf" target="_blank" class="link__text">
+                  Download app<span>&rarr;</span>
                 </a>
-                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
+                <a href="https://github.com/dorcasndungu/Rhyme" title="View Source Code" target="_blank">
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+              <img src="./images/rhymeApp.png" class="work__image" alt="Project 1" />
             </div>
           </div>
 
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Calculator</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
-              </p>
-              <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
-              </ul>
 
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
-            </div>
-          </div>
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Notificator</h3>
+              <h3>Inspire</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+                An Angular website for posting and rating quotes.
               </p>
               <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
+                <li>Angular</li>
+                <li>TypeScript</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
               </ul>
 
               <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
+                <a href="https://dorcasndungu.github.io/Inspire/" class="link__text">
+                  Visit site<span>&rarr;</span>
                 </a>
-                <a href="#">
+                <a href="https://github.com/dorcasndungu/Inspire">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
@@ -145,26 +134,14 @@
               <img src="./images/project-3.png" class="work__image" alt="Project 3" />
             </div>
           </div>
+
+
+
         </div>
       </div>
     </section>
 
-    <!-- ***** Clients ***** -->
 
-    <section class="client" id="clients">
-      <div class="row">
-        <h2>Clients</h2>
-        <div class="client__logos">
-          <!-- Add logos of the clients or companies you'have worked with. -->
-          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
-          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
-          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
-          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
-          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
-          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
-        </div>
-      </div>
-    </section>
 
     <!-- ***** About ***** -->
 
@@ -175,18 +152,21 @@
           <div class="about__text">
             <!-- Replace the below paragraph with info about yourself -->
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
-              nostrum illo harum blanditiis, tenetur eum suscipit cupiditate
-              in vel, ex quam quidem quos mollitia labore aut sunt eius
-              ratione molestiae fuga veniam facere similique voluptate.
+              Hello! My name is Dorcas and l love programming my way to solutions.I develop android apps,programs and
+              anything else between me and the solutions.Besides that, l enjoy writing and reading African fiction.I
+              also swim, play chess and basketball occasionally</p>
+            <p>I am currently looking for an internship opportunity with an aim to grow as well as make a meaningful
+              impact in my position.
+
             </p>
             <!-- Provide a link to your resume -->
-            <a href="#" class="btn">My Resume</a>
+            <a href="https://drive.google.com/file/d/1h3Wzdp1GXBqqN9cqkijugBYvTMSM5HTf/view?usp=share_link"
+              class="btn">My Resume</a>
           </div>
 
           <div class="about__photo-container">
             <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
+            <img class="about__photo" src="./images/dorcas.jpg" alt="developer_photo" height="500" width="500" />
           </div>
         </div>
       </div>
@@ -200,64 +180,49 @@
       <h2>Get in Touch</h2>
       <div class="contact__info">
         <p>
-          Are you looking for a fast-performing and user-friendly website to
-          represent your product or business? or looking for any kind of
+          Are you looking for a curious and adaptable junior developer to join your team? Look no further. or looking
+          for any kind of
           consultation? or want to ask questions? or have some advice for me
-          or just want to say "Hi 👋" in any case feel free to Let me know. I
-          will do my best to respond back. 😊 The quickest way to reach out to
-          me is via an email.
+          or just want to say "Hi 👋" in any case feel free to Let me know.You can reach me via email.
         </p>
         <!-- Replace the email with yours -->
-        <a href="mailto:you@example.com" class="btn">you@example.com</a>
+        <a href="mailto:ndungumwihaki017@gmail.com" class="btn">ndungumwihaki017@gmail.com</a>
       </div>
     </div>
   </section>
 
   <!-- ***** Footer ***** -->
 
-  <footer role="contentinfo" class="footer">
-    <div class="row">
-      <!-- Update the links to point to your accounts -->
-      <ul class="footer__social-links">
-        <li class="footer__social-link-item">
-          <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
-            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
-            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
-          </a>
-        </li>
-      </ul>
+  <footer role="contentinfo" class="footer" id="footer">
 
-      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+    <!-- Update the links to point to your accounts -->
+
+    <div>
+      <a style="text-decoration: none" href="https://github.com/dorcasndungu" title="Link to Github Profile">
+        <img src="./images/github.svg" class="footer__social-image" alt="Github">
+      </a>
+      <a style="text-decoration: none" href="https://www.linkedin.com/in/dorcas-ndungu">
+        <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+      </a>
+    </div>
+
+    </ul>
+    </div>
+    <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+    <div class="row">
       <p>
-        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
+        &copy; 2023 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a> and <a
+          href="#" class="link">Dorcas</a>.
       </p>
-      <div class="footer__github-buttons">
-        <iframe
-          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
-          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
-        </iframe>
-      </div>
+
     </div>
   </footer>
 
   <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
   </a>
-  <script src="./index.js"></script>
+  <script src="js/index.js"></script>
+
 </body>
 
 </html>
