@@ -1,6 +1,6 @@
 # Dorcas Developer Portfolio 
 
 
-To View the live site click [here &rarr;](https://portfolio-template.surge.sh)
+To View the live site click [here &rarr;](https://dorcasndungu.github.io/Dorcas_portfolio/)
 
 
