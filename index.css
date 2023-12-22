@@ -410,7 +410,7 @@ body:not(.user-is-tabbing) a:focus {
  
 
 header {
-background: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.815)), 
+background: linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.699)), 
     url("images/header.jpg");
 height: 100vh;
 background-size: cover;
@@ -612,4 +612,75 @@ background-attachment: fixed;
         padding: var(--gutter-medium) 0;
     } 
 }
+/* Additional CSS for Snake Game */
+.snake-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  /* .score-container {
+    font-size: 18px;
+    color: #333; 
+    margin-top: 10px;
+}
+.high-score-container {
+    font-size: 18px;
+    color: #333; 
+    margin-top: 10px;
+} */
+  
+  .snake-game__container {
+    position: relative;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  #snake {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  .snake-game h2 {
+    text-align: left; 
+    margin-left: 20px; 
+}
+.instructions-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .instructions-list {
+    text-align: start;
+    padding: 0;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  #start-button {
+    background-color: #ff3258;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+  }
+  .instructions-container h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #ff3258;
 
+  }
+  .pinkSmallh3 {
+    font-size: 18px; 
+    color: #ff3258; /* Set the color to pink */
+  }

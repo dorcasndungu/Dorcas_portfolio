@@ -38,9 +38,12 @@
           <li class="nav__item">
             <a href="#about" class="nav__link">About</a>
           </li>
-         
+      
           <li class="nav__item">
             <a href="#contact" class="nav__link">Contact</a>
+          </li>
+          <li class="nav__item">
+            <a href="#play" class="nav__link">Play</a>
           </li>
         </ul>
       </nav>
@@ -202,7 +205,7 @@
               Hello! My name is Dorcas and l love programming my way to solutions. I develop android apps, programs, websites and
               anything else between me and the solutions. Besides that, l enjoy journaling and reading African fiction. I
               also swim, play chess and basketball occasionally.</p>
-            <p>I am looking for an internship opportunity with an aim to grow as well as make a meaningful
+            <p>I am looking for a junior software developer role with an aim to grow as well as make a meaningful
               impact in my position.
             </p>
             <!-- Provide a link to your resume -->
@@ -234,7 +237,31 @@
       </div>
     </div>
   </section>
+<!-- ***** Snake Game ***** -->
 
+<section id="play">
+  <div class="row">
+    <h2>Snake Game  <div class="pinkSmallh3" >All Work and No Play Makes Jane a Dull Girl</div></h2>
+    <div class="snake-game" id="snake-game">
+      <div class="snake-game__container">
+        <canvas id="snake" width="400" height="400"></canvas>
+        <!-- <div id="score-container" class="score-container"></div>
+        <hr>
+        <div id="high-score-container" class="high-score-container"></div> -->
+        <div class="instructions-container">
+          <h3>Snake Game Rules:</h3>
+          <ol class="instructions-list" >
+            <li>No colliding with the walls.</li>
+            <li>No colliding with its body.</li>
+            <li>No reversing.</li>
+          </ol>
+          <button id="start-button">Start</button>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+</section>
   <!-- ***** Footer ***** -->
 
   <footer role="contentinfo" class="footer" id="footer">
@@ -255,8 +282,8 @@
     <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
     <div class="row">
       <p>
-        &copy; 2023 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a> and <a
-          href="https://dorcasndungu.github.io/Dorcas_portfolio/" class="link">Dorcas</a>.
+        &copy; 2023 - Template designed & developed by <a
+        href="https://dorcasndungu.github.io/Dorcas_portfolio/" class="link">Dorcas</a> and <a href="https://nisar.dev" class="link">Nisar</a>.
       </p>
 
     </div>
@@ -265,6 +292,7 @@
   <a href="#top" class="back-to-top" title="Back to Top">
     <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
   </a>
+  <script src="js/snake-game.js"></script>
   <script src="js/index.js"></script>
 
 </body>
