@@ -109,6 +109,10 @@ section {
     padding: var(--gutter-huge) 0;
     border-bottom: var(--border-light);
 }
+.section_snake {
+    padding: var(--gutter-normal) 0;
+    border-bottom: var(--border-light);
+}
 
 img {
     object-fit: contain;
